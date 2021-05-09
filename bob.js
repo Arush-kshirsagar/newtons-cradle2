@@ -10,11 +10,12 @@ class Bob{
          inertia:Infinity
      }
      //this.radius=radius;
-     this.body=Bodies.circle(this.x,this.y,40,40,options);
+    
      
      this.x=x;
      this.y=y;
      this.color=color;
+         this.body=Bodies.circle(this.x,this.y,40,options);
      World.add(world,this.body);
      
     }
