@@ -14,7 +14,7 @@ var mouseRope
 
 
 function setup() {
-	canvas=createCanvas(windowWidth/2, windowHeight/2);
+	canvas=createCanvas(1600,900);
 
 
 	engine = Engine.create();
@@ -68,6 +68,7 @@ function draw() {
 function MouseDragged(){
 	Matter.body.setPosition(bob1.body,{x:mouseX,y:mouseY});
 }
+
 
 
 
